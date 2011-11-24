@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Marwan Aziz</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+
+	<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.quicksand.js"></script> 
+<script>
+$(function() {
+  $('.button').click(function(e) {
+
+    $('.source').quicksand( $('.destination li') );
+    //e.preventDefault();
+  })
+});
+
+ </script>
+  <div id="wrap">
+	<h1>&middot; Marwan Aziz &middot;</h1>
+	<p><a class="button" href="#dummy">Apples to oranges</a></p>
+<ul class="source">
+	<li data-id="iphone">iPhone OS</li>
+	<li data-id="android">Android</li>
+	<li data-id="winmo">Windows Mobile</li>
+</ul>
+
+<ul class="destination" class="hidden" style="visibility:hidden;">
+	<li data-id="macosx">Mac OS X</li>
+	<li data-id="macos9">Mac OS 9</li>
+	<li data-id="iphone">iPhone OS</li>
+</ul>
+
+  </div>
+</body>
+</html>
